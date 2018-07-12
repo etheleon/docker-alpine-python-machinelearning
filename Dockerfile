@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-python3
+FROM etheleon/alpine-python3
 
 RUN apk add --no-cache \
         --virtual=.build-dependencies \
