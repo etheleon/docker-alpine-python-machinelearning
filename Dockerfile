@@ -1,4 +1,4 @@
-FROM etheleon/alpine-python3
+FROM etheleon/docker-alpine-python3
 
 RUN apk add --no-cache \
         --virtual=.build-dependencies \
